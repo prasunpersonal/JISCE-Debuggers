@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">JISCE Debuggers</string>
+    <string name="tag_line">Let\'s debug together</string>
+
+    <string name="MESSAGING_SERVER_KEY">AAAAmWG-uFU:APA91bGN15C1H9UA_Ep-KvJ4wXeLB8TwZqdUtL0WcsrUWSMzG81CHXHLnk1f0iA_tngBfOL8uiPR2Go5edZNRaQVDqXGoZAr_9AcfXAHyqQZ7OMpRhPx1n6IHG2mv3941eEZcNaf5qb8</string>
+    <string name="SERVER_POST_URL">https://fcm.googleapis.com/fcm/send</string>
+
+    <string name="facebook_app_id">189164420049689</string>
+    <string name="fb_login_protocol_scheme">fb189164420049689</string>
+    <string name="facebook_client_token">783c3fee85243de2e41ea0ca2c46271c</string>
+
+    <string name="post_src_count">%1$d post(s) found.</string>
+    <string name="user_src_count">%1$d user(s) found.</string>
+    <string name="saved_by">Saved By: %1$d</string>
+    <string name="rated_by">(%1$.01f) Rated By %2$d user(s)</string>
+    <string name="rating_text">Rate %1$s</string>
+    <string name="question_post">%1$s just posted a question - "%2$s".</string>
+    <string name="answer_post">%1$s just answered to your question - "%2$s".</string>
+    <string name="user_notification_template">%1$s just joined to JISCE Debuggers.</string>
+    <string name="post_notification_template">%1$s just posted on JISCE Debuggers.\n%2$s - %3$s</string>
+    <string name="post_rate_template">%1$s rated %2$d star to your post.\n%3$s - %4$s</string>
+    <string name="comment_default_template">%1$s commented on your post.</string>
+    <string name="comment_reply_template">%1$s replied on your comment.</string>
+    <string name="comment_reply_author_template">%1$s replied to a comment on your post.</string>
+    <string name="comment_like_template">%1$s liked your comment on %2$s - %3$s.</string>
+    <string name="rating_notification_template">%1$s just rated you %2$d star(s).</string>
+    <string name="share_template"><b>Title:</b> %1$s\n<b>Language used:</b> %2$s\n\n%3$s\n\n<b>Posted by:</b> %4$s</string>
+    <string name="filter_count">%1$d filter(s) applied.</string>
+
+</resources>

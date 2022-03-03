@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bottomsheet_dialog_bg"
+    android:orientation="vertical"
+    android:paddingTop="5dp"
+    android:paddingBottom="15dp">
+
+    <View
+        android:layout_width="50dp"
+        android:layout_height="3dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:background="?attr/colorOnSecondary" />
+
+    <TextView
+        android:id="@+id/copyComment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:drawablePadding="10dp"
+        android:drawableTint="?attr/colorOnSecondary"
+        android:gravity="center_vertical"
+        android:padding="15dp"
+        android:singleLine="true"
+        android:text="Copy Text"
+        android:textColor="?attr/colorOnSecondary"
+        android:textSize="16sp"
+        app:drawableLeftCompat="@drawable/ic_copy" />
+
+    <TextView
+        android:id="@+id/editComment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:drawablePadding="10dp"
+        android:drawableTint="?attr/colorOnSecondary"
+        android:gravity="center_vertical"
+        android:padding="15dp"
+        android:singleLine="true"
+        android:text="Edit Comment"
+        android:textColor="?attr/colorOnSecondary"
+        android:textSize="16sp"
+        app:drawableLeftCompat="@drawable/ic_edit" />
+
+    <TextView
+        android:id="@+id/deleteComment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:drawablePadding="10dp"
+        android:drawableTint="?attr/colorOnSecondary"
+        android:gravity="center_vertical"
+        android:padding="15dp"
+        android:singleLine="true"
+        android:text="Delete Comment"
+        android:textColor="?attr/colorOnSecondary"
+        android:textSize="16sp"
+        app:drawableLeftCompat="@drawable/ic_delete" />
+</LinearLayout>

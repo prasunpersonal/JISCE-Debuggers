@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bottomsheet_dialog_bg"
+    android:orientation="vertical"
+    android:paddingTop="5dp"
+    android:paddingBottom="15dp">
+
+    <View
+        android:layout_width="50dp"
+        android:layout_height="3dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="15dp"
+        android:background="?attr/colorOnSecondary" />
+
+    <TextView
+        android:id="@+id/viewImg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:drawableLeft="@drawable/ic_user_circle"
+        android:drawablePadding="10dp"
+        android:drawableTint="?attr/colorOnSecondary"
+        android:gravity="center_vertical"
+        android:padding="15dp"
+        android:singleLine="true"
+        android:text="View Image"
+        android:textColor="?attr/colorOnSecondary"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/editImg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:drawableLeft="@drawable/ic_edit"
+        android:drawablePadding="10dp"
+        android:drawableTint="?attr/colorOnSecondary"
+        android:gravity="center_vertical"
+        android:padding="15dp"
+        android:singleLine="true"
+        android:text="Edit Image"
+        android:textColor="?attr/colorOnSecondary"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/deleteImg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:drawableLeft="@drawable/ic_delete"
+        android:drawablePadding="10dp"
+        android:drawableTint="?attr/colorOnSecondary"
+        android:gravity="center_vertical"
+        android:padding="15dp"
+        android:singleLine="true"
+        android:text="Remove Image"
+        android:textColor="?attr/colorOnSecondary"
+        android:textSize="16sp" />
+</LinearLayout>

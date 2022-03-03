@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.prasunpersonal.jiscedebuggers">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.MANAGE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+
+    <queries>
+        <provider android:authorities="com.facebook.katana.provider.PlatformProvider" />
+        <provider android:authorities="com.facebook.orca.provider.PlatformProvider" />
+    </queries>
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.JISCEDebuggers">
+        <activity
+            android:name=".Activities.QuestionAnswerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.FAQActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.ReportActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Services.NotificationLoadingScreenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.CommentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.FullPostActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.SavedPostsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.ProfileOthersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.CreatePostActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Activities.HomeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.SignupLogin"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Activities.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".Services.FirebaseMessagingReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <meta-data
+            android:name="com.facebook.sdk.ClientToken"
+            android:value="@string/facebook_client_token" />
+    </application>
+
+</manifest>

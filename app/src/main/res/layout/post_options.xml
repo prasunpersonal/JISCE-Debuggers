@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bottomsheet_dialog_bg"
+    android:orientation="vertical"
+    android:paddingTop="5dp"
+    android:paddingBottom="15dp">
+
+    <View
+        android:layout_width="50dp"
+        android:layout_height="3dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/black" />
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        app:columnCount="3">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="8dp"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginBottom="4dp"
+                android:clipToPadding="false"
+                app:cardCornerRadius="50dp"
+                app:cardElevation="0dp"
+                app:strokeColor="@color/black"
+                app:strokeWidth="2dp">
+
+                <ImageView
+                    android:id="@+id/copyPostId"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="?attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:scaleType="center"
+                    app:srcCompat="@drawable/ic_copy"
+                    app:tint="@color/post_option_color"
+                    tools:ignore="SpeakableTextPresentCheck" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="Copy post ID"
+                android:textAlignment="center"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="8dp"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginBottom="4dp"
+                android:clipToPadding="false"
+                app:cardCornerRadius="50dp"
+                app:cardElevation="0dp"
+                app:strokeColor="@color/black"
+                app:strokeWidth="2dp">
+
+                <ImageView
+                    android:id="@+id/copyPostText"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="?attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:scaleType="center"
+                    app:srcCompat="@drawable/ic_copy"
+                    app:tint="@color/post_option_color"
+                    tools:ignore="SpeakableTextPresentCheck" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="Copy post text"
+                android:textAlignment="center"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="8dp"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginBottom="4dp"
+                android:clipToPadding="false"
+                app:cardCornerRadius="50dp"
+                app:cardElevation="0dp"
+                app:strokeColor="@color/black"
+                app:strokeWidth="2dp">
+
+                <ImageView
+                    android:id="@+id/download"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="?attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:scaleType="center"
+                    app:srcCompat="@drawable/ic_download"
+                    app:tint="@color/post_option_color"
+                    tools:ignore="SpeakableTextPresentCheck" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="Download"
+                android:textAlignment="center"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="8dp"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginBottom="4dp"
+                android:clipToPadding="false"
+                app:cardCornerRadius="50dp"
+                app:cardElevation="0dp"
+                app:strokeColor="@color/black"
+                app:strokeWidth="2dp">
+
+                <ImageView
+                    android:id="@+id/savePost"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="?attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:scaleType="center"
+                    app:srcCompat="@drawable/ic_save_no"
+                    app:tint="@color/post_option_color"
+                    tools:ignore="SpeakableTextPresentCheck" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <TextView
+                android:id="@+id/savePostTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="Add to saved posts"
+                android:textAlignment="center"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="8dp"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginBottom="4dp"
+                android:clipToPadding="false"
+                app:cardCornerRadius="50dp"
+                app:cardElevation="0dp"
+                app:strokeColor="@color/black"
+                app:strokeWidth="2dp">
+
+                <ImageView
+                    android:id="@+id/editPost"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="?attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:scaleType="center"
+                    app:srcCompat="@drawable/ic_edit"
+                    app:tint="@color/post_option_color"
+                    tools:ignore="SpeakableTextPresentCheck" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="Edit post"
+                android:textAlignment="center"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="8dp"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginBottom="4dp"
+                android:clipToPadding="false"
+                app:cardCornerRadius="50dp"
+                app:cardElevation="0dp"
+                app:strokeColor="@color/black"
+                app:strokeWidth="2dp">
+
+                <ImageView
+                    android:id="@+id/deletePost"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="?attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:scaleType="center"
+                    app:srcCompat="@drawable/ic_delete"
+                    app:tint="@color/post_option_color"
+                    tools:ignore="SpeakableTextPresentCheck" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="Delete post"
+                android:textAlignment="center"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+    </androidx.gridlayout.widget.GridLayout>
+
+</LinearLayout>

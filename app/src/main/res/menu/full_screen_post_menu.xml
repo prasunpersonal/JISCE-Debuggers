@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/download"
+        android:icon="@drawable/ic_download"
+        android:title="Download"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/copy"
+        android:icon="@drawable/ic_copy"
+        android:title="Copy"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/save"
+        android:icon="@drawable/ic_save_yes"
+        android:title="Save post"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/edit"
+        android:icon="@drawable/ic_edit"
+        android:title="Edit post"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/delete"
+        android:icon="@drawable/ic_delete"
+        android:title="Delete post"
+        app:showAsAction="never" />
+
+</menu>
