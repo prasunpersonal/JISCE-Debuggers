@@ -10,7 +10,7 @@ Let's debug together
 ## A message to whole world:-
 From the comunity of JISCE Debuggers, we represent our application as the most intellectual android based application. It's the app which have platform for all type of programmers based on their skills. We tried to make an application which can help for the biginners to grow up and exprienced and well skilled programmers can compete between themeselves. We tried to manage our system like in that way, advanced and skilled programmers can clear the biginer's doubt.
 
-![Logo](https://github.com/prasunpersonal/assets/blob/main/JISCE%20Debuggers/logo.png)
+![Logo](https://github.com/prasunpersonal/JISCE-Debuggers/blob/main/app/src/main/ic_launcher-playstore.png)
 
 ## Features
 - You can upload your source code file to help all the programmers.
